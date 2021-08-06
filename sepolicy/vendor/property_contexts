@@ -29,3 +29,5 @@ persist.vendor.mwqem.           u:object_r:vendor_mwqem_prop:s0
 # FM
 ro.vendor.fm.use_audio_session	u:object_r:exported_system_prop:s0
 
+# Xiaomi
+ro.vendor.xiaomi.	u:object_r:vendor_xiaomi_prop:s0

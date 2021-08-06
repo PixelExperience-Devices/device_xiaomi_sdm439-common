@@ -27,3 +27,6 @@ allow init sysfs_graphics:file { open read write };
 allow init system_data_file:file { getattr open read unlink write };
 set_prop(init, system_prop)
 set_prop(init, vendor_default_prop)
+
+# Prop
+get_prop(init, vendor_xiaomi_prop)

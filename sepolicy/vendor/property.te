@@ -8,3 +8,6 @@ vendor_internal_prop(wcnss_prop)
 
 # mwqem property
 vendor_restricted_prop(vendor_mwqem_prop); 
+
+# Xiaomi
+type vendor_xiaomi_prop, property_type;
