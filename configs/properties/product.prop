@@ -5,5 +5,8 @@
 # Default to BFQ I/O scheduler
 persist.sys.io.scheduler=bfq
 
+# Hearing Aid Audio Support Using Bluetooth LE
+bluetooth.profile.asha.central=true
+
 # IORap
 persist.device_config.runtime_native_boot.iorap_readahead_enable=true
