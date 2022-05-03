@@ -4333,7 +4333,7 @@ vendor/lib64/libspl.so|f8bbe0322ce06a545f5dc79c888183ac61673b68
 # DRM - Widevine - from Coral - 12/SQ1A.220105.002/7961164
 vendor/bin/hw/android.hardware.drm@1.4-service.widevine|40007c2086cb435d36b38de089cdfa4f38941b4e
 vendor/etc/init/android.hardware.drm@1.4-service.widevine.rc|225dd006bfecf6c1dca6793fa1c13a455ce4eae6
--vendor/etc/vintf/manifest/manifest_android.hardware.drm@1.4-service.widevine.xml|91d7c0996133556cb7f7c5d1b7e5d9e7f07b78b2
+vendor/etc/vintf/manifest/manifest_android.hardware.drm@1.4-service.widevine.xml|91d7c0996133556cb7f7c5d1b7e5d9e7f07b78b2
 vendor/lib64/libwvhidl.so|8ffc9cfc0ca2abc0e7bbde94c61961b1fef45e6f
 
 # Firmware - from olive-user 10 QKQ1.191014.001 V12.0.1.0.QCNMIXM release-keys
@@ -4388,8 +4388,8 @@ vendor/bin/xtra-daemon|e06d564773772e4f341acad4bcd74c4eb0bf2863
 vendor/bin/xtwifi-client|9f64aa6f899b56fe58438b30e340730e1d47bcdb
 vendor/bin/xtwifi-inet-agent|f805841e5c8ca3b0af620486a64a37148daa0980
 vendor/etc/init/android.hardware.gnss@2.1-service-qti.rc|6a70a956838b5070d310acb6cc76181aa1b83be6
--vendor/etc/vintf/manifest/android.hardware.gnss@2.1-service-qti.xml|1c344aacaa6d17a1585ba58b2e6d438dcfe31fad
--vendor/etc/vintf/manifest/vendor.qti.gnss@4.0-service.xml|6514b13f55abc0acc28e004c35ff93fb972d61a9
+vendor/etc/vintf/manifest/android.hardware.gnss@2.1-service-qti.xml|1c344aacaa6d17a1585ba58b2e6d438dcfe31fad
+vendor/etc/vintf/manifest/vendor.qti.gnss@4.0-service.xml|6514b13f55abc0acc28e004c35ff93fb972d61a9
 vendor/etc/flp.conf|8c8642685c225fa0b715c284481018a527dae451
 vendor/etc/gnss_antenna_info.conf|f0df44f39738a3f712c5e956801494e83c942d77
 vendor/etc/izat.conf|a795b79b68e3705c0334432dded0c0d246f47cb3
@@ -4612,7 +4612,7 @@ vendor/lib/libperipheral_client.so|7ace2f7c8c7ebd986db6c7796de7237e584e658b
 vendor/lib64/libperipheral_client.so|9bfd41e276e16b8f7c6808f3d87531fc5be4cdd5
 
 # Power-off alarm - from LA.UM.9.6.3.r1-06200-89xx.0
--product/app/PowerOffAlarm/PowerOffAlarm.apk|bc906abd03e4a243201dde626b6580fd8a4f73ce
+product/app/PowerOffAlarm/PowerOffAlarm.apk|bc906abd03e4a243201dde626b6580fd8a4f73ce
 vendor/bin/hw/vendor.qti.hardware.alarm@1.0-service|586b142f9bc4bf3098b4962682c4de1c13810f9b
 vendor/bin/power_off_alarm|b8c7ddc1bed336753c3746925fd0f4a9925aa36c
 vendor/etc/init/vendor.qti.hardware.alarm@1.0-service.rc|a03a9a1c818595b19272ea6ffb466e23a7fc3b05
@@ -4873,7 +4873,7 @@ vendor/lib64/libthermalclient.so|148421212c4b2d3bcb37cb08f9542d3286f008c1
 vendor/lib64/libthermalfeature.so|1c408911610e5b6a11853aff1900860f9e9a861f
 
 # Time services - from LA.UM.9.6.3.r1-04400-89xx.0
--vendor/app/TimeService/TimeService.apk|1a5f39aa2969feee50ff81ec870b5e2669ae515e
+vendor/app/TimeService/TimeService.apk|1a5f39aa2969feee50ff81ec870b5e2669ae515e
 vendor/bin/time_daemon|48401d7f85c87aa3e12ce7b4a969a50cbf59c293
 vendor/etc/init/init.time_daemon.rc|b253ca2a498757e14e1d7a051bf504ae09218f51
 vendor/lib64/libtime_genoff.so|8bb116ad297a5e4a94da2f10509509cb6e863a5f
