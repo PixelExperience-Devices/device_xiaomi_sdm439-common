@@ -262,7 +262,7 @@ PRODUCT_PACKAGES += \
 
 # Lights
 PRODUCT_PACKAGES += \
-    android.hardware.light@2.0-service.xiaomi_sdm439
+    android.hardware.lights-service.xiaomi_sdm439
 
 # LMKD
 # Enable stats logging in LMKD
