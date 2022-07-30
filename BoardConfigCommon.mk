@@ -22,14 +22,12 @@ TARGET_2ND_CPU_ABI := armeabi-v7a
 TARGET_2ND_CPU_ABI2 := armeabi
 TARGET_2ND_CPU_VARIANT := cortex-a53
 
-TARGET_BOARD_SUFFIX := _64
-
 # Device Properties
-TARGET_ODM_PROP := $(COMMON_PATH)/configs/properties/odm.prop
-TARGET_PRODUCT_PROP := $(COMMON_PATH)/configs/properties/product.prop
-TARGET_SYSTEM_EXT_PROP := $(COMMON_PATH)/configs/properties/system_ext.prop
-TARGET_SYSTEM_PROP := $(COMMON_PATH)/configs/properties/system.prop
-TARGET_VENDOR_PROP := $(COMMON_PATH)/configs/properties/vendor.prop
+TARGET_ODM_PROP += $(COMMON_PATH)/configs/properties/odm.prop
+TARGET_PRODUCT_PROP += $(COMMON_PATH)/configs/properties/product.prop
+TARGET_SYSTEM_EXT_PROP += $(COMMON_PATH)/configs/properties/system_ext.prop
+TARGET_SYSTEM_PROP += $(COMMON_PATH)/configs/properties/system.prop
+TARGET_VENDOR_PROP += $(COMMON_PATH)/configs/properties/vendor.prop
 
 # Kernel
 BOARD_KERNEL_BASE := 0x80000000

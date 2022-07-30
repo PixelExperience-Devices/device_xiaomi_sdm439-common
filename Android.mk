@@ -4,9 +4,11 @@
 # SPDX-License-Identifier: Apache-2.0
 #
 
-ifneq ($(filter mi439 pine olives,$(TARGET_DEVICE)),)
+LOCAL_PATH := $(call my-dir)
 
-include $(call all-subdir-makefiles)
+ifeq ($(TARGET_DEVICE),mi439)
+
+include $(call all-makefiles-under,$(LOCAL_PATH))
 
 include $(CLEAR_VARS)
 
