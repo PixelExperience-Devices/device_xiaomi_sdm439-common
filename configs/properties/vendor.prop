@@ -34,7 +34,6 @@ vendor.audio.use.sw.alac.decoder=true
 vendor.audio.use.sw.ape.decoder=true
 vendor.audio_hal.period_size=192
 vendor.audio.read.wsatz.type=true
-vendor.fastrpc.disable.adsprpcd_sensorspd.daemon=1
 vendor.voice.conc.fallbackpath=deep-buffer
 vendor.voice.path.for.pcm.voip=true
 vendor.voice.playback.conc.disabled=true
@@ -89,9 +88,6 @@ persist.vendor.dpmhalservice.enable=1
 # DRM
 drm.service.enabled=true
 
-# Fm
-vendor.hw.fm.init=0
-
 # Frp
 ro.frp.pst=/dev/block/bootdevice/by-name/config
 
@@ -102,7 +98,6 @@ vendor.vidc.disable.split.mode=1
 
 # Perf
 ro.vendor.extension_library=libqti-perfd-client.so
-ro.vendor.qti.sys.fw.bservice_enable=true
 ro.vendor.perf.scroll_opt=true
 
 # Radio
@@ -121,31 +116,12 @@ persist.sys.fflag.override.settings_provider_model=false
 vendor.rild.libargs=-d /dev/smd0
 ro.com.android.dataroaming=false
 
-# Radio (IMS)
-persist.dbg.volte_avail_ovr=1
-persist.dbg.vt_avail_ovr=1
-persist.dbg.wfc_avail_ovr=1
-persist.vendor.ims.disableIMSLogs=1
-persist.vendor.ims.disableADBLogs=1
-persist.vendor.ims.disableDebugDataPathLogs=1
-persist.vendor.ims.disableDebugLogs=1
-persist.vendor.ims.disableSigHandler=1
-persist.vendor.ims.disableQXDMLogs=1
-persist.vendor.radio.report_codec=1
-persist.vendor.radio.vdp_on_ims_cap=1
-
-# Recovery
-persist.vendor.recovery_update=false
-
 # Sensor
 ro.vendor.sensors.pseudo_gyro=true
 
 # Soc
 ro.soc.manufacturer=QTI
 ro.soc.model=MSM8937
-
-# Time Services
-persist.backup.ntpServer=0.pool.ntp.org
 
 # Tcp
 net.tcp.2g_init_rwnd=10
