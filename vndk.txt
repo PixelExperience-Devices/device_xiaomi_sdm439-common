@@ -1,4 +1,3 @@
-android.frameworks.automotive.display@1.0
 android.frameworks.cameraservice.common@2.0
 android.frameworks.cameraservice.device@2.0
 android.frameworks.cameraservice.service@2.0
@@ -21,14 +20,6 @@ android.hardware.audio.effect@4.0
 android.hardware.audio.effect@5.0
 android.hardware.audio.effect@6.0
 android.hardware.authsecret@1.0
-android.hardware.automotive.audiocontrol@1.0
-android.hardware.automotive.audiocontrol@2.0
-android.hardware.automotive.can@1.0
-android.hardware.automotive.evs@1.0
-android.hardware.automotive.evs@1.1
-android.hardware.automotive.occupant_awareness-V1-ndk_platform
-android.hardware.automotive.sv@1.0
-android.hardware.automotive.vehicle@2.0
 android.hardware.bluetooth@1.0
 android.hardware.bluetooth@1.1
 android.hardware.bluetooth.a2dp@1.0
