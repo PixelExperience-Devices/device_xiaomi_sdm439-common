@@ -81,9 +81,6 @@ BOARD_QTI_CAMERA_32BIT_ONLY := true
 TARGET_TS_MAKEUP := false
 TARGET_SUPPORT_HAL1 := false
 
-# Crypto
-TARGET_HW_DISK_ENCRYPTION := true
-
 # Display
 USE_DEVICE_SPECIFIC_DISPLAY := true
 DEVICE_SPECIFIC_DISPLAY_PATH := $(COMMON_PATH)/qcom-caf/display
@@ -140,7 +137,6 @@ TARGET_PER_MGR_ENABLED := true
 
 # Power
 TARGET_TAP_TO_WAKE_NODE := "/proc/sys/dev/dt2w"
-TARGET_POWERHAL_MODE_EXT := $(COMMON_PATH)/power/power-mode.cpp
 TARGET_USES_INTERACTION_BOOST := true
 
 # Qualcomm
