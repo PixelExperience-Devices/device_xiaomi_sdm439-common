@@ -116,6 +116,10 @@ DEVICE_MATRIX_FILE   := $(COMMON_PATH)/configs/vintf/compatibility_matrix.xml
 TARGET_INIT_VENDOR_LIB := //$(COMMON_PATH):init_xiaomi_sdm439
 TARGET_RECOVERY_DEVICE_MODULES := init_xiaomi_sdm439
 
+# IPA
+USE_DEVICE_SPECIFIC_DATA_IPA_CFG_MGR := true
+PRODUCT_SOONG_NAMESPACES += vendor/qcom/opensource/data-ipa-cfg-mgr-legacy-um
+
 # Media
 USE_DEVICE_SPECIFIC_MEDIA := true
 DEVICE_SPECIFIC_MEDIA_PATH := $(COMMON_PATH)/qcom-caf/media
