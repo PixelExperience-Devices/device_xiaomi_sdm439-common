@@ -73,8 +73,7 @@ PRODUCT_COPY_FILES += \
 
 # ANT
 PRODUCT_PACKAGES += \
-    AntHalService \
-    libantradio
+    AntHalService
 
 # APEX
 PRODUCT_COMPRESSED_APEX := false
@@ -141,7 +140,6 @@ PRODUCT_PACKAGES += \
     camera.msm8937 \
     libdng_sdk.vendor \
     libgui_vendor \
-    libmm-qcamera \
     vendor.qti.hardware.camera.device@1.0 \
     vendor.qti.hardware.camera.device@1.0.vendor
 
@@ -174,7 +172,6 @@ PRODUCT_PACKAGES += \
     libvulkan \
     memtrack.msm8937 \
     vendor.display.config@1.0.vendor \
-    vendor.qti.hardware.display.allocator-service \
     vendor.qti.hardware.display.mapper@2.0.vendor
 
 # Device-specific settings
@@ -350,7 +347,6 @@ PRODUCT_PACKAGES += \
     libOmxEvrcEnc \
     libOmxG711Enc \
     libOmxQcelp13Enc \
-    libOmxSwVencHevc \
     libOmxVdec \
     libOmxVenc \
     libstagefrighthw \
@@ -404,7 +400,6 @@ PRODUCT_PACKAGES += \
     extphonelib_product.xml \
     librmnetctl \
     librmnetctl.vendor \
-    libcnefeatureconfig \
     qti-telephony-hidl-wrapper \
     qti_telephony_hidl_wrapper.xml \
     qti-telephony-hidl-wrapper-prd \
